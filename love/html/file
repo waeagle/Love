@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feelings for You</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Feelings for You</h1>
+    </header>
+    <main>
+        <section>
+            <h2>"Heartfelt Apology"</h2>
+            <p>"Dear Vidhi,"</p>
+            <p>"I am truly sorry for causing you heartbreak. Please know that it was never my intention to hurt you."</p>
+            <p>"This website is my humble attempt to express my feelings and apologize from the depths of my heart. You mean the world to me"</p>
+        </section>
+        <section>
+            <h2>"I just can't live without you"</h2>
+            <p>"I never knew how to live until I knew how to love, and I never knew how to love until I met you."</p>
+            <ul>
+                <li>"To the world, you may be one person, but to one person, you are the world."</li>
+                <li>"Your kindness towards others is inspiring."</li>
+                <li>"I cherish the moments we've shared together."</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p> "Your's and only yours. Shubhuu"</p>
+    </footer>
+</body>
+</html>
