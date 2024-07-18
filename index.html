@@ -5,36 +5,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feelings for You</title>
     <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <h1>My Feelings for You</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#apology">Heartfelt Apology</a></li>
-            <li><a href="#expressions">Expressions of Love</a></li>
-        </ul>
-    </nav>
-    <main>
-        <section id="apology">
-            <h2>Heartfelt Apology</h2>
-            <p>Dear [Crush's Name],</p>
-            <p>I am truly sorry for causing you heartbreak. Please know that it was never my intention to hurt you.</p>
-            <p>This website is my humble attempt to express my feelings and apologize from the depths of my heart.</p>
-        </section>
-        <section id="expressions">
-            <h2>Expressions of Love</h2>
-            <p>Here are some of the reasons why I admire and care for you:</p>
-            <ul>
-                <li>You bring joy to my life with your smile.</li>
-                <li>Your kindness towards others is inspiring.</li>
-                <li>I cherish the moments we've shared together.</li>
-            </ul>
-        </section>
-    </main>
-    <footer>
-        <p>© 2024 Your Name. All rights reserved.</p>
-    </footer>
-</body>
-</html>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: relative;
+        }
+
+        header::after {
+            content: "";
+            display: block;
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 20px;
+            height: 20px;
+            background-color: #333;
+            border-top-left-radius: 50%;
+            border-top-right-radius: 50%;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            position: relative;
+        }
+
+        main::before {
+            content: "";
+            display: block;
+            position: absolute;
+            top: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 30px;
+            height: 30px;
+            background-color: #fff;
+            border-bottom-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        section::after {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background-color: #f39c12;
+            border-radius: 2px;
+        }
+
+        h1, h2 {
+            color: #333;
+            position: relative;
+        }
+
+        h1::before, h2::before {
+            content: "";
+            display: block
